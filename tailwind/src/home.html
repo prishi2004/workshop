@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Layout</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header class="bg-rose-200 flex justify-between items-center">
+      <h1 class="font-bold text-2xl mx-8">Logo</h1>
+      <ul class="flex mx-8 my-8 px-8 gap-5 text-brown font-bold">
+        <li> <a href="">Home</a> </li>
+        <li><a href="">About</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact Us </a></li>
+        <li><a href=""
+            class="text-white rounded bg-amber-950 px-8 py-2 mx-1 rounded-md hover:bg-white/70 hover:text-amber-950">Login</a>
+        </li>
+      </ul>
+    </header>
+    <section id="hero" class="bg-yellow-950 py-8 px-12 flex items-center">
+      <div class="w-2/4">
+        <h2 class="text-white font-bold text-3xl mb-4 mt-10">Love Over Coffee</h2>
+        <p class="text-white mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, rerum.</p>
+        <a href="" class="text-brown bg-rose-200 font-bold rounded-2xl p-4 m-4 hover:bg-white/50">Contact Us</a>
+      </div>
+      <div class="w-2/4 ">
+        <img src="images/resturent.jpeg" alt="" class="h-65 w-full round" />
+      </div>
+    </section>
+    <section id="menu" class="px-12 py-10">
+      <h2 class="font-bold mb-8 text-3xl text-center">Our Menu</h2>
+      <div class="menu-wrapper flex flex-wrap justify-evenly gap-2">
+
+          <div class="card w-[32%] mb-8 text-center">
+              <img src="images/pizza.jpg" alt="" class="h-48 w-full rounded-t-lg">
+              <h4 class="font-bold mb-2 text-lg">Pizza</h4>
+              <p class="mb-2 flex items-center justify-center gap-1 font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 299</p>
+              <a href="" class="bg-black hover:bg-black/50 text-white px-4 py-1 rounded-md ">Add To Cart</a>
+          </div>
+          <div class="card w-[32%] mb-8 text-center">
+              <img src="images/burger.webp" alt="" class="h-48 w-full rounded-t-lg">
+              <h4 class="font-bold mb-2 text-lg">burger</h4>
+              <p class="mb-2 flex items-center justify-center gap-1 font-bold" class="mb-2 flex items-center justify-center gap-1 font-bold"><i class="fa-solid fa-indian-rupee-sign"></i>70</p>
+              <a href="" class="bg-black hover:bg-black/50 text-white px-4 py-1 rounded-md ">Add To Cart</a>
+          </div>
+          <div class="card w-[32%] mb-8 text-center">
+              <img src="images/patties.jpg" alt="" class="h-48 w-full rounded-t-lg">
+              <h4 class="font-bold mb-2 text-lg">patties</h4>
+              <p class="mb-2 flex items-center justify-center gap-1 font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 25</p>
+              <a href="" class="bg-black hover:bg-black/50 text-white px-4 py-1 rounded-md ">Add To Cart</a>
+          </div>
+          <div class="card w-[32%] mb-8 text-center">
+              <img src="images/samosa.jpg" alt="" class="h-48 w-full rounded-t-lg">
+              <h4 class="font-bold mb-2 text-lg">samosa</h4>
+              <p class="mb-2 flex items-center justify-center gap-1 font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 20</p>
+              <a href="" class="bg-black hover:bg-black/50 text-white px-4 py-1 rounded-md ">Add To Cart</a>
+          </div>
+          <div class="card w-[32%] mb-8 text-center">
+              <img src="images/pao_bhaji.jpg" alt="" class="h-48 w-full rounded-t-lg">
+              <h4 class="font-bold mb-2 text-lg">Pao Bhaji</h4>
+              <p class="mb-2 flex items-center justify-center gap-1 font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 150</p>
+              <a href="" class="bg-black hover:bg-black/50 text-white px-4 py-1 rounded-md ">Add To Cart</a>
+          </div>
+          <div class="card w-[32%] mb-8 text-center">
+              <img src="images/chaumin.webp" alt="" class="h-48 w-full rounded-t-lg">
+              <h4 class="font-bold mb-2 text-lg">Chowmein</h4>
+              <p class="mb-2 flex items-center justify-center gap-1 font-bold"><i class="fa-solid fa-indian-rupee-sign"></i> 90</p>
+              <a href="" class="bg-black hover:bg-black/50 text-white px-4 py-1 rounded-md ">Add To Cart</a>
+          </div>
+      </div>
+  </section>
+</body>
+
+</html>
